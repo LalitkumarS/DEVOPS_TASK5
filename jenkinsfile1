@@ -5,7 +5,7 @@ pipeline {
         DOCKER_IMAGE = "lalitkumars/lalitkumar2004"
         DOCKER_TAG = "latest"
         DOCKER_CREDENTIALS_ID = "docker"
-        GITHUB_CREDENTIALS_ID = "github-seccred"
+        GITHUB_CREDENTIALS_ID = "github_seccred"
         KUBECONFIG = "/var/lib/jenkins/.kube/config"
     }
 
